@@ -15,7 +15,7 @@ namespace EasyTextEffects
         {
             if (Application.isPlaying)
             {
-                return Time.time;
+                return Time.unscaledTime;
             }
             else
             {
